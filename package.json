@@ -7,6 +7,7 @@
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "@types/node": "^10.0.3",
+    "@types/pluralize": "^0.0.29",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
     "eslint": "^6.8.0",
@@ -22,6 +23,9 @@
     "dev": "npx ts-node src/index.ts"
   },
   "dependencies": {
-    "ts-node": "^8.9.0"
+    "pluralize": "^8.0.0",
+    "ts-node": "^8.9.0",
+    "typedi": "^0.8.0",
+    "typeorm": "^0.2.24"
   }
 }
